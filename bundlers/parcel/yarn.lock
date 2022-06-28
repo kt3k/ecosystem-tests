@@ -1597,10 +1597,10 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@prisma/client@3.16.0-dev.107":
-  version "3.16.0-dev.107"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.16.0-dev.107.tgz#de901214e0d87e6a19be8579a7b6fc8d683efa63"
-  integrity sha512-DoezOWwT7KZFAt9ZDqsWZFa2lJrt0oWhSkmkIE5FFEF+q/7UHai5JItWbGxQTS/o2u2iseWUuphK8PRG9gN/KQ==
+"@prisma/client@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-4.0.0.tgz#ed2f46930a1da0d8ae88d7965485973576b04270"
+  integrity sha512-g1h2OGoRo7anBVQ9Cw3gsbjwPtvf7i0pkGxKeZICtwkvE5CZXW+xZF4FZdmrViYkKaAShbISL0teNpu9ecpf4g==
   dependencies:
     "@prisma/engines-version" "3.16.0-49.da41d2bb3406da22087b849f0e911199ba4fbf11"
 
@@ -5841,10 +5841,10 @@ pretty-format@^28.1.1:
     ansi-styles "^5.0.0"
     react-is "^18.0.0"
 
-prisma@3.16.0-dev.107:
-  version "3.16.0-dev.107"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.16.0-dev.107.tgz#ca3675eabc67e82f12ae6b900489e8c06600fe51"
-  integrity sha512-knMPXOGWXqx0OOl5bxt/AJfCqPdWwPVjdyxkwC50hh1zMfsHml4FEbH8ArQ18+/ojdFcolZU3O5Ww9wroZ7wag==
+prisma@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-4.0.0.tgz#4ddb8fcd4f64d33aff8c198a6986dcce66dc8152"
+  integrity sha512-Dtsar03XpCBkcEb2ooGWO/WcgblDTLzGhPcustbehwlFXuTMliMDRzXsfygsgYwQoZnAUKRd1rhpvBNEUziOVw==
   dependencies:
     "@prisma/engines" "3.16.0-49.da41d2bb3406da22087b849f0e911199ba4fbf11"
 
