@@ -14,8 +14,8 @@
     "vercel": "26.0.0"
   },
   "resolutions": {
-    "prisma": "3.8.0-dev.23",
-    "@prisma/client": "3.8.0-dev.23"
+    "prisma": "4.1.0-integration-env-rust-log.2",
+    "@prisma/client": "4.1.0-integration-env-rust-log.2"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",

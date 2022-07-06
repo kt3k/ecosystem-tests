@@ -3591,12 +3591,19 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@prisma/client@3.14.0", "@prisma/client@3.8.0-dev.23":
-  version "3.8.0-dev.23"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.8.0-dev.23.tgz#927e896ef51d2cde886405e8e176a214c224ee22"
-  integrity sha512-IXyxOzO1S9fy1a/WtFsSFiVlq0oEOdK5Vxx52RhMoH7jsxmQ/W1pFSvvP97rOswd5uSK7KPvdsc4TszQdmKKOA==
+"@prisma/client@3.14.0":
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.14.0.tgz#bb90405c012fcca11f4647d91153ed4c58f3bd48"
+  integrity sha512-atb41UpgTR1MCst0VIbiHTMw8lmXnwUvE1KyUCAkq08+wJyjRE78Due+nSf+7uwqQn+fBFYVmoojtinhlLOSaA==
   dependencies:
-    "@prisma/engines-version" "3.8.0-13.127d929a152e14f1150eb15b424fbbb1d9a9829b"
+    "@prisma/engines-version" "3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a"
+
+"@prisma/client@4.1.0-integration-env-rust-log.2":
+  version "4.1.0-integration-env-rust-log.2"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-4.1.0-integration-env-rust-log.2.tgz#f8a9875b7303ac9f7d60fc6e7ad9a68c3468183e"
+  integrity sha512-7BaoqZPhc7a0v182VwwURtxx/QjOrjfVsmcJb+2kdlfFauqj0YM+nU07knBS63itXQ7QhWyYqC1a7oijpUFgig==
+  dependencies:
+    "@prisma/engines-version" "4.1.0-18.b0c91bea15594fde99e164a664e703330e340826"
 
 "@prisma/debug@3.13.0":
   version "3.13.0"
@@ -3634,20 +3641,25 @@
     strip-ansi "6.0.1"
     undici "5.0.0"
 
-"@prisma/engines-version@3.8.0-13.127d929a152e14f1150eb15b424fbbb1d9a9829b":
-  version "3.8.0-13.127d929a152e14f1150eb15b424fbbb1d9a9829b"
-  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-3.8.0-13.127d929a152e14f1150eb15b424fbbb1d9a9829b.tgz#d93ab74d04de5468888eaa0d62490be8954c862f"
-  integrity sha512-TcURFP5AXtJPdmVJ05mSi73wzTlpjqPm+6nFGaxLHy56PDIj4gY2rj4AduyTATnV+YMmBWCfzS/AS7k/q8NbhQ==
+"@prisma/engines-version@3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a":
+  version "3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a.tgz#4edae57cf6527f35e22cebe75e49214fc0e99ac9"
+  integrity sha512-D+yHzq4a2r2Rrd0ZOW/mTZbgDIkUkD8ofKgusEI1xPiZz60Daks+UM7Me2ty5FzH3p/TgyhBpRrfIHx+ha20RQ==
+
+"@prisma/engines-version@4.1.0-18.b0c91bea15594fde99e164a664e703330e340826":
+  version "4.1.0-18.b0c91bea15594fde99e164a664e703330e340826"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-4.1.0-18.b0c91bea15594fde99e164a664e703330e340826.tgz#6c9e746580425c43cddc682a0fd376825451afb9"
+  integrity sha512-Hfuxkx2eYcp6AzJJImTl5Flx8vWBMmv5UDy9RWlQansK4Ee0IvwEujq9UYvkA9XNcKOBEkILa7lCDT+Vy1KrcQ==
 
 "@prisma/engines@3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a":
   version "3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a"
   resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a.tgz#7fa11bc26a51d450185c816cc0ab8cac673fb4bf"
   integrity sha512-LwZvI3FY6f43xFjQNRuE10JM5R8vJzFTSmbV9X0Wuhv9kscLkjRlZt0BEoiHmO+2HA3B3xxbMfB5du7ZoSFXGg==
 
-"@prisma/engines@3.8.0-13.127d929a152e14f1150eb15b424fbbb1d9a9829b":
-  version "3.8.0-13.127d929a152e14f1150eb15b424fbbb1d9a9829b"
-  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-3.8.0-13.127d929a152e14f1150eb15b424fbbb1d9a9829b.tgz#3df6ecacd299942f1aae636bd565d88aba09259b"
-  integrity sha512-h9M2MI4w/Zcje69XudUM+qTAq0Ci1MIxYV545C7htHXwLKpr5GzMf38Kml9KM3G5zgCQrK00Wa3rsMZa1rCptA==
+"@prisma/engines@4.1.0-integration-env-rust-log.2":
+  version "4.1.0-integration-env-rust-log.2"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-4.1.0-integration-env-rust-log.2.tgz#00d0688253dd859aff5458bd46c334042dffae6f"
+  integrity sha512-3gSSsEsbzliqKPgBiGIEC054ugoPrGgpPsuDaqFNrdXWpsryrrjPCcLc0hzQCjNjwwFGsdLYcTc2HTcansiLVw==
 
 "@prisma/fetch-engine@3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a":
   version "3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a"
@@ -16866,12 +16878,19 @@ printj@~1.1.0:
   resolved "https://registry.yarnpkg.com/printj/-/printj-1.1.2.tgz#d90deb2975a8b9f600fb3a1c94e3f4c53c78a222"
   integrity sha512-zA2SmoLaxZyArQTOPj5LXecR+RagfPSU5Kw1qP+jkWeNlrq+eJZyY2oS68SU1Z/7/myXM4lo9716laOFAVStCQ==
 
-prisma@3.14.0, prisma@3.8.0-dev.23:
-  version "3.8.0-dev.23"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.8.0-dev.23.tgz#4c939bb9d9e8816ea221e9d388fe1bd8ca0cf577"
-  integrity sha512-qGidVO9FIJleYSM0cnEr3dJg9z313w4mpywBMfpu00nu6QeX9Cb8Zu5b/E+facM/6HOlpE2NOtvx/3egwvY/CQ==
+prisma@3.14.0:
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.14.0.tgz#dd67ece37d7b5373e9fd9588971de0024b49be81"
+  integrity sha512-l9MOgNCn/paDE+i1K2fp9NZ+Du4trzPTJsGkaQHVBufTGqzoYHuNk8JfzXuIn0Gte6/ZjyKj652Jq/Lc1tp2yw==
   dependencies:
-    "@prisma/engines" "3.8.0-13.127d929a152e14f1150eb15b424fbbb1d9a9829b"
+    "@prisma/engines" "3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a"
+
+prisma@4.1.0-integration-env-rust-log.2:
+  version "4.1.0-integration-env-rust-log.2"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-4.1.0-integration-env-rust-log.2.tgz#09fd38ec493fc0e7d6a72f092ac4f64d472b1e0f"
+  integrity sha512-B89vsWn3K4czWqv42XQOAaJ0o+DboefT1bGLFuoetiWM1Gukkl9ayVi4R0lDXhw2Qa+No+ct6OEWw9W2uvQJeQ==
+  dependencies:
+    "@prisma/engines" "4.1.0-integration-env-rust-log.2"
 
 prismjs@^1.27.0:
   version "1.28.0"
